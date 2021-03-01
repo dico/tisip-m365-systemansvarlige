@@ -4,6 +4,17 @@
 	"parameters": {},
 	"functions": [],
 	"variables": {},
-	"resources": [],
+	"resources": [
+		{
+			"type": "Microsoft.Storage/storageAccounts",
+			"apiVersion": "2019-04-01",
+			"name": "demostorage1234",
+			"location": "West Europe",
+			"sku": {
+				"name": "Standard_LRS"
+			},
+			"kind": "StorageV2"
+		}
+	],
 	"outputs": {}
 }
